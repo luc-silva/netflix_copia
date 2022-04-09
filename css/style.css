@@ -1,0 +1,88 @@
+@charset "UTF-8";
+:root {
+    --vermelho: red;
+    --preto: black;
+    --branco: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.logo {
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+header a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    padding: 10px;
+    margin-right: 0;
+    font-weight: bold;
+}
+header a:hover{
+    color: var(--branco);
+}
+header .container {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* body */
+body {
+    color: var(--branco);
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    margin-left: 40px;
+}
+.filme_principal {
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363) 100%), url("/midia/mrrobot-cover.jpg");
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.filme_principal .titulo {
+
+    font-size: 4em;
+}
+.filme_principal .descricao {
+
+    margin-bottom: 40px;
+}
+.filme_principal .container {
+    width: 60%;
+}
+.botao {
+    background-color: rgba(0, 0, 0, 0.651);
+    border: none;
+    color: rgba(224, 221, 221, 0.986);
+
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 1em;
+
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+.botao:hover {
+    color: var(--preto);
+    background-color: var(--branco);
+    border: solid;
+    border: none;
+}
+/* footer */
