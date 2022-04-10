@@ -15,13 +15,14 @@
     color: var(--vermelho);
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
+    margin-left: 40px;
 }
 header a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: rgb(184, 184, 184);
     padding: 10px;
-    margin-right: 0;
+    margin-right: 10px;
     font-weight: bold;
 }
 header a:hover{
@@ -42,7 +43,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 .container {
-    margin-left: 40px;
+    margin-left:40px;
 }
 .filme_principal {
     font-family: Arial, Helvetica, sans-serif;
@@ -56,16 +57,18 @@ body {
     justify-content: center;
     align-items: start;
 }
+.owl_carousel {
+    margin-top: 20px;
+}
 .filme_principal .titulo {
 
     font-size: 4em;
 }
 .filme_principal .descricao {
-
     margin-bottom: 40px;
 }
 .filme_principal .container {
-    width: 60%;
+    width: 70%;
 }
 .botao {
     background-color: rgba(0, 0, 0, 0.651);
@@ -84,5 +87,10 @@ body {
     background-color: var(--branco);
     border: solid;
     border: none;
+}
+.box_filme {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 /* footer */
