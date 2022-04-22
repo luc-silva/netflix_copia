@@ -17,6 +17,9 @@
     margin: 10px;
     margin-left: 40px;
 }
+header{
+    background-color: rgb(26, 26, 26);
+}
 header a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -29,7 +32,6 @@ header a:hover{
     color: var(--branco);
 }
 header .container {
-    background-color: rgb(26, 26, 26);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,7 +49,7 @@ body {
 }
 .filme_principal {
     font-family: Arial, Helvetica, sans-serif;
-    background:linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363) 100%), url("/midia/mrrobot-cover.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363) 100%), url("/midia/mrrobot-poster.jpg");
 
     height: 500px;
     background-size: cover;
