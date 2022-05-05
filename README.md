@@ -1,5 +1,5 @@
 <h2>netflix_copia</h2>
-<p> Uma cópia do HUB da Netflix feito em conjunto com a <a href="https://web.dio.me/home" target="_blank"> Digital Inovation One</a>
+<p> Uma cópia do HUB da Netflix feito em conjunto com a <a href="https://web.dio.me/home" target="_blank"> Digital Inovation One</a></p>
 
 <h3>Sobre</h3>
 <p>Não tem muita utilidade nem função, portanto ainda é só uma prévia </p>
